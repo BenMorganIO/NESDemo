@@ -1,5 +1,0 @@
-{
-  "executable": "/opt/homebrew/bin/cl65",
-  "input": "demo.s",
-  "params": "--verbose --target nes -o demo.nes"
-}
