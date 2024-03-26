@@ -3,3 +3,6 @@
 *.nes*
 .DS_Store
 Brewfile.lock.json
+
+/output/*
+!/output/.gitkeep

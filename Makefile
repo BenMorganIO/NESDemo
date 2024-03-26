@@ -3,7 +3,7 @@ default:
 	@make run
 
 build:
-	@cl65 ./demo.s --verbose --target nes -o demo.nes
+	@cl65 lib/demo.s --verbose --target nes -o output/demo.nes
 
 run:
-	@fceux demo.nes
+	@fceux output/demo.nes
